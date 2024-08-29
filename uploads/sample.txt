@@ -1,0 +1,43 @@
+Salesperson: We have several color options available. Are you interested in a specific color? Currently, we have red, black, and silver.  
+Customer: I like black. That works for me. And what's the budget like? Any details available?  
+Salesperson: Let me check. The starting price is around Rs. 12,00,000. This is for the 2022 model, petrol sedan.  
+Customer: Is there any way to get it without the dealer’s logo?  
+Salesperson: Yes, we can remove the dealer’s logo for you.  
+Customer: Alright, here’s what I need...  
+Salesperson: Sure, what are you looking for?  
+Customer: I have a budget of around Rs. 1,000,000, and I need a sedan with good mileage and comfort. Preferably a Toyota Corolla or a similar model.  
+Salesperson: Understood. We can definitely find something that fits your budget and requirements. What about fuel type?  
+Customer: I prefer petrol. No diesel, please.  
+Salesperson: Noted. What are your thoughts on transmission type? Manual or automatic?  
+Customer: I’m open to either, but automatic would be preferable.  
+Salesperson: Okay, we have automatic options available in our inventory. Regarding comfort, all our vehicles are well-maintained and undergo thorough inspections.  
+Customer: How do you ensure the vehicles are comfortable and in good condition?  
+Salesperson: We conduct a detailed inspection and service each vehicle before selling.  
+Customer: What about after-sales support? Is there any warranty?  
+Salesperson: Yes, we offer a two-year warranty on the engine and a one-year warranty on the AC and electrical components.  
+Customer: So, if something goes wrong after the warranty period?  
+Salesperson: We also provide a seven-day return policy if you're not satisfied with the vehicle.  
+Customer: Within seven days? What about the registration process?  
+Salesperson: The registration starts after the seven-day period.  
+Customer: How does ownership work before the registration is complete?  
+Salesperson: You will not be the registered owner until the process is officially started.  
+Customer: Will I receive confirmation before the registration starts?  
+Salesperson: Yes, you will receive a confirmation once the process begins.  
+Customer: Great. Can you now check for sedans that match my budget and preferences?  
+Salesperson: Certainly, let me find options for sedans within your budget.  
+Customer: I want to avoid older models. Can you find something newer?  
+Salesperson: Yes, we can focus on models from 2019 and later.  
+Customer: How about the Toyota Corolla? Do you have any?  
+Salesperson: We do have a 2020 Toyota Corolla available. Let me check the details... Yes, it's priced around Rs. 11,50,000.  
+Customer: If I need to go for a lower price, what are the alternatives?  
+Salesperson: We could consider models from 2018. They might be slightly lower in price but still in good condition.  
+Customer: If I choose a higher mileage vehicle, will that affect its resale value?  
+Salesperson: Yes, higher mileage can impact the resale value.  
+Customer: What’s the expected lifespan of these vehicles?  
+Salesperson: You can expect around 2 to 2.5 lakh kilometers if well-maintained.  
+Customer: Can I schedule a test drive?  
+Salesperson: Yes, you can come to our showroom for a test drive, or we can arrange a home test drive.  
+Customer: I prefer a home test drive. When can I schedule it?  
+Salesperson: Availability may vary, but we can arrange it within a few days.  
+Customer: Thank you for your assistance!  
+Salesperson: You're welcome! If you have any more questions, feel free to ask.

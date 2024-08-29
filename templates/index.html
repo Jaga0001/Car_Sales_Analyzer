@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Sales Information Extractor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Car Sales Information Extractor</h1>
+        <form id="upload-form" enctype="multipart/form-data">
+            <label for="file">Upload Transcript File:</label>
+            <input type="file" id="file" name="file" accept=".txt">
+            <button type="submit">Upload</button>
+        </form>
+        <div id="results"></div>
+    </div>
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</body>
+
+</html>

@@ -1,0 +1,255 @@
+{
+    "conv1.txt": {
+        "Customer Requirements": {
+            "Car Type": "Suv",
+            "Fuel Type": "Diesel",
+            "Color": "White",
+            "Distance Travelled": null,
+            "Make Year": null,
+            "Transmission Type": null,
+            "Budget": "Rs. 800,000"
+        },
+        "Company Policies Discussed": {
+            "Free RC Transfer": false,
+            "5-Day Money Back Guarantee": false,
+            "Free RSA for One Year": false,
+            "Return Policy": false
+        },
+        "Customer Objections": {
+            "Refurbishment Quality": false,
+            "Car Issues": false,
+            "Price Issues": false,
+            "Customer Experience Issues": false
+        }
+    },
+    "conv10.txt": {
+        "Customer Requirements": {
+            "Car Type": null,
+            "Fuel Type": null,
+            "Color": null,
+            "Distance Travelled": null,
+            "Make Year": null,
+            "Transmission Type": null,
+            "Budget": null
+        },
+        "Company Policies Discussed": {
+            "Free RC Transfer": false,
+            "5-Day Money Back Guarantee": false,
+            "Free RSA for One Year": false,
+            "Return Policy": false
+        },
+        "Customer Objections": {
+            "Refurbishment Quality": false,
+            "Car Issues": false,
+            "Price Issues": false,
+            "Customer Experience Issues": false
+        }
+    },
+    "conv11.txt": {
+        "Customer Requirements": {
+            "Car Type": null,
+            "Fuel Type": null,
+            "Color": null,
+            "Distance Travelled": null,
+            "Make Year": "2010",
+            "Transmission Type": null,
+            "Budget": "Rs. 32,000"
+        },
+        "Company Policies Discussed": {
+            "Free RC Transfer": false,
+            "5-Day Money Back Guarantee": false,
+            "Free RSA for One Year": false,
+            "Return Policy": false
+        },
+        "Customer Objections": {
+            "Refurbishment Quality": false,
+            "Car Issues": false,
+            "Price Issues": false,
+            "Customer Experience Issues": false
+        }
+    },
+    "conv2.txt": {
+        "Customer Requirements": {
+            "Car Type": "Sedan",
+            "Fuel Type": null,
+            "Color": null,
+            "Distance Travelled": null,
+            "Make Year": null,
+            "Transmission Type": null,
+            "Budget": "Rs. 600,000"
+        },
+        "Company Policies Discussed": {
+            "Free RC Transfer": false,
+            "5-Day Money Back Guarantee": false,
+            "Free RSA for One Year": false,
+            "Return Policy": false
+        },
+        "Customer Objections": {
+            "Refurbishment Quality": false,
+            "Car Issues": false,
+            "Price Issues": false,
+            "Customer Experience Issues": false
+        }
+    },
+    "conv3.txt": {
+        "Customer Requirements": {
+            "Car Type": null,
+            "Fuel Type": "Diesel",
+            "Color": null,
+            "Distance Travelled": null,
+            "Make Year": "2017",
+            "Transmission Type": null,
+            "Budget": "Rs. 12,000"
+        },
+        "Company Policies Discussed": {
+            "Free RC Transfer": false,
+            "5-Day Money Back Guarantee": false,
+            "Free RSA for One Year": false,
+            "Return Policy": false
+        },
+        "Customer Objections": {
+            "Refurbishment Quality": false,
+            "Car Issues": false,
+            "Price Issues": false,
+            "Customer Experience Issues": false
+        }
+    },
+    "conv4.txt": {
+        "Customer Requirements": {
+            "Car Type": null,
+            "Fuel Type": null,
+            "Color": "Grey",
+            "Distance Travelled": null,
+            "Make Year": "2022",
+            "Transmission Type": null,
+            "Budget": null
+        },
+        "Company Policies Discussed": {
+            "Free RC Transfer": false,
+            "5-Day Money Back Guarantee": false,
+            "Free RSA for One Year": false,
+            "Return Policy": false
+        },
+        "Customer Objections": {
+            "Refurbishment Quality": false,
+            "Car Issues": false,
+            "Price Issues": false,
+            "Customer Experience Issues": false
+        }
+    },
+    "conv5.txt": {
+        "Customer Requirements": {
+            "Car Type": null,
+            "Fuel Type": "Diesel",
+            "Color": "White",
+            "Distance Travelled": null,
+            "Make Year": "2017",
+            "Transmission Type": "Manual",
+            "Budget": null
+        },
+        "Company Policies Discussed": {
+            "Free RC Transfer": false,
+            "5-Day Money Back Guarantee": false,
+            "Free RSA for One Year": false,
+            "Return Policy": false
+        },
+        "Customer Objections": {
+            "Refurbishment Quality": false,
+            "Car Issues": false,
+            "Price Issues": false,
+            "Customer Experience Issues": false
+        }
+    },
+    "conv6.txt": {
+        "Customer Requirements": {
+            "Car Type": null,
+            "Fuel Type": "Diesel",
+            "Color": null,
+            "Distance Travelled": "13 km",
+            "Make Year": null,
+            "Transmission Type": "Manual",
+            "Budget": null
+        },
+        "Company Policies Discussed": {
+            "Free RC Transfer": false,
+            "5-Day Money Back Guarantee": false,
+            "Free RSA for One Year": false,
+            "Return Policy": false
+        },
+        "Customer Objections": {
+            "Refurbishment Quality": false,
+            "Car Issues": false,
+            "Price Issues": false,
+            "Customer Experience Issues": false
+        }
+    },
+    "conv7.txt": {
+        "Customer Requirements": {
+            "Car Type": null,
+            "Fuel Type": null,
+            "Color": "Red",
+            "Distance Travelled": null,
+            "Make Year": null,
+            "Transmission Type": null,
+            "Budget": null
+        },
+        "Company Policies Discussed": {
+            "Free RC Transfer": false,
+            "5-Day Money Back Guarantee": false,
+            "Free RSA for One Year": false,
+            "Return Policy": false
+        },
+        "Customer Objections": {
+            "Refurbishment Quality": false,
+            "Car Issues": false,
+            "Price Issues": false,
+            "Customer Experience Issues": false
+        }
+    },
+    "conv8.txt": {
+        "Customer Requirements": {
+            "Car Type": null,
+            "Fuel Type": null,
+            "Color": "Red",
+            "Distance Travelled": "12,000 km",
+            "Make Year": null,
+            "Transmission Type": null,
+            "Budget": null
+        },
+        "Company Policies Discussed": {
+            "Free RC Transfer": false,
+            "5-Day Money Back Guarantee": false,
+            "Free RSA for One Year": false,
+            "Return Policy": false
+        },
+        "Customer Objections": {
+            "Refurbishment Quality": false,
+            "Car Issues": false,
+            "Price Issues": false,
+            "Customer Experience Issues": false
+        }
+    },
+    "conv9.txt": {
+        "Customer Requirements": {
+            "Car Type": null,
+            "Fuel Type": null,
+            "Color": "Red",
+            "Distance Travelled": "10 km",
+            "Make Year": null,
+            "Transmission Type": null,
+            "Budget": null
+        },
+        "Company Policies Discussed": {
+            "Free RC Transfer": false,
+            "5-Day Money Back Guarantee": false,
+            "Free RSA for One Year": false,
+            "Return Policy": false
+        },
+        "Customer Objections": {
+            "Refurbishment Quality": false,
+            "Car Issues": false,
+            "Price Issues": false,
+            "Customer Experience Issues": false
+        }
+    }
+}

@@ -44,44 +44,47 @@ def upload_file():
         transcripts = read_text_files(app.config['UPLOAD_FOLDER'])
         results = process_transcripts(transcripts)
 
-        # Convert the results to sentences focusing on key points
-        key_points = []
+        # Prepare the HTML content for the results
+        html_content = '<div id="results">'
         for filename, content in results.items():
-            key_points.append(f"Key points extracted from {filename}:")
+            html_content += f'<div class="key-point">'
+            html_content += f'<h2>Key points extracted from {filename}</h2>'
+            html_content += '<div class="content">'
             
-            # Handle specific categories
             if "Customer Requirements" in content:
                 reqs = content["Customer Requirements"]
                 if reqs.get("Budget"):
-                    key_points.append(f"The customer's budget is {reqs['Budget']}.")
+                    html_content += f'<p>The customer\'s budget is {reqs["Budget"]}.</p>'
                 if reqs.get("Car Type"):
-                    key_points.append(f"They are looking for a {reqs['Car Type']} type of car.")
+                    html_content += f'<p>They are looking for a {reqs["Car Type"]} type of car.</p>'
                 if reqs.get("Color"):
-                    key_points.append(f"The preferred color is {reqs['Color']}.")
+                    html_content += f'<p>The preferred color is {reqs["Color"]}.</p>'
                 if reqs.get("Fuel Type"):
-                    key_points.append(f"They want a car with {reqs['Fuel Type']} fuel type.")
+                    html_content += f'<p>They want a car with {reqs["Fuel Type"]} fuel type.</p>'
                 if reqs.get("Transmission Type"):
-                    key_points.append(f"They prefer {reqs['Transmission Type']} transmission.")
+                    html_content += f'<p>They prefer {reqs["Transmission Type"]} transmission.</p>'
 
             if "Customer Objections" in content:
                 objections = content["Customer Objections"]
                 noted_objections = [k for k, v in objections.items() if v]
                 if noted_objections:
-                    key_points.append("The customer has objections related to: " + ", ".join(noted_objections) + ".")
+                    html_content += '<p>The customer has objections related to: ' + ', '.join(noted_objections) + '.</p>'
                 else:
-                    key_points.append("The customer has no objections noted.")
+                    html_content += '<p>The customer has no objections noted.</p>'
 
             if "Company Policies Discussed" in content:
                 policies = content["Company Policies Discussed"]
                 discussed_policies = [k for k, v in policies.items() if v]
                 if discussed_policies:
-                    key_points.append("The following company policies were discussed: " + ", ".join(discussed_policies) + ".")
+                    html_content += '<p>The following company policies were discussed: ' + ', '.join(discussed_policies) + '.</p>'
                 else:
-                    key_points.append("No company policies were discussed.")
-            
-            key_points.append("\n")  # Add a newline for readability
+                    html_content += '<p>No company policies were discussed.</p>'
 
-        return "<br>".join(key_points)
+            html_content += '</div></div><br>'
+        
+        html_content += '</div>'
+
+        return html_content
 
 if __name__ == '__main__':
     app.run(debug=True)

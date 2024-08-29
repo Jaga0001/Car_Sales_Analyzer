@@ -10,29 +10,12 @@ document.getElementById('upload-form').addEventListener('submit', function (e) {
         method: 'POST',
         body: formData
     })
-        .then(response => response.json())
+        .then(response => response.text())
         .then(data => {
             var resultsDiv = document.getElementById('results');
-            resultsDiv.innerHTML = '<h2>Extraction Results:</h2>' + formatResults(data);
+            resultsDiv.innerHTML = '<h2>Extraction Results:</h2>' + data;
         })
         .catch(error => {
             console.error('Error:', error);
         });
 });
-
-function formatResults(data) {
-    let formattedString = '';
-
-    for (let filename in data) {
-        formattedString += `<h3>${filename}</h3>`;
-        for (let category in data[filename]) {
-            formattedString += `<h4>${category}</h4>`;
-            for (let key in data[filename][category]) {
-                let value = data[filename][category][key];
-                formattedString += `<p><strong>${key}:</strong> ${value === null ? 'N/A' : value}</p>`;
-            }
-        }
-    }
-
-    return formattedString;
-}
